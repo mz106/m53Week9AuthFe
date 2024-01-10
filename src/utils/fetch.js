@@ -37,5 +37,6 @@ export const loginFetch = async (username, password) => {
   });
 
   const data = await response.json();
-  console.log("signup done: ", data);
+
+  return data;
 };
