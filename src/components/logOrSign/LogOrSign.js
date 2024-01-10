@@ -1,6 +1,7 @@
 import React from "react";
 
 import Signup from "../signup/Signup";
+import Login from "../login/Login";
 
 import "./LogOrSign.css";
 
@@ -11,7 +12,9 @@ const LogOrSign = () => {
         <div className="logorsign-box">
           <Signup />
         </div>
-        <div className="logorsign-box"></div>
+        <div className="logorsign-box">
+          <Login />
+        </div>
       </div>
     </div>
   );
