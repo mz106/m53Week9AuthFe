@@ -1,0 +1,29 @@
+
+
+Task: add username and book data to the component FavContainer to display
+data in manner shown in wireframe (fav-section.drawio);
+
+
+what data does each component need for this task?
+
+Header - n/a
+LogOrSign - n/a
+BookContainer - setFavBook -> BookCard - setFavBook
+FavContainer - fav book data, username
+Footer - n/a
+
+where does the favBook data come in to the app?
+
+BookConatiner(BookCard)
+
+So, what will BookCard need?
+
+book card will need the setter to set the favBook state, as
+this is where the favourite book comes in from the backend
+
+So, what do i have to create?
+
+Components? No.
+
+State? Yes -> favBook in App.js
+
