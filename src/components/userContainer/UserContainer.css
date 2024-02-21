@@ -1,0 +1,19 @@
+.usercontainer-wrapper {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+}
+
+.card-container {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 1px solid green;
+}
